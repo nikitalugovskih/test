@@ -1,6 +1,3 @@
-import { modalSet } from "./modal";
-
-
 const submitForm = document.getElementById('submit');
 const modalWindow = document.querySelector('.modal');
 
