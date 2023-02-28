@@ -1,0 +1,218 @@
+@media (max-width: 1024px) {
+
+    .wrapper {
+        width: 1021px;
+        height: 768px;
+    }
+
+    .main-info {
+        align-items: center;
+        background: no-repeat url(../../assets/wrapper-logos/wrapper-logo__left.svg), no-repeat url(../../assets/wrapper-logos/wrapper-logo__right.svg) #fdfdff;
+        background-size: 74%, 83%, 38%;
+        background-position: -25rem -18rem, 46rem -36rem;
+    }
+
+    .main-info__logo {
+        margin-top: 9rem;
+    }
+
+    .header-text__subtitle {
+        width: 48vw;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .events {
+        margin-top: 56px;
+    }
+
+    .events-title {
+        width: 50vw;
+    font-size: 27px;
+    }
+
+    .events-button {
+        margin-top: 2rem;
+    }
+
+    .time-count__days-large {
+        display: none;
+    }
+
+    .time-count__days-small {
+        display: block;
+        width: 132px;
+        height: 54px;
+        text-align: center;
+        background: no-repeat url(../../assets/time-logos/time-logos.svg);
+        padding-top: 18px;
+        color:#fdfdff;
+    }
+
+    .time-count__hours-large {
+        display: none;
+    }
+
+    .time-count__hours-small {
+        display: block;
+        width: 132px;
+        height: 54px;
+        text-align: center;
+        background: no-repeat url(../../assets/time-logos/time-logos.svg);
+        padding-top: 18px;
+        color:#fdfdff;
+    }
+
+    .time-count__minutes-large {
+        display: none;
+    }
+
+    .time-count__minutes-small {
+        display: block;
+        width: 132px;
+        height: 54px;
+        text-align: center;
+        background: no-repeat url(../../assets/time-logos/time-logos.svg);
+        padding-top: 18px;
+        color:#fdfdff;
+    }
+    
+    .time-count__seconds-large {
+        display: none;
+    }
+
+    .time-count__seconds-small {
+        display: block;
+        width: 132px;
+        height: 54px;
+        text-align: center;
+        background: no-repeat url(../../assets/time-logos/time-logos.svg);
+        padding-top: 18px;
+        color:#fdfdff;
+    }
+
+
+
+    .footer {
+        width: 100%;
+        min-height: 18vh;
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 812px;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-info {
+        align-items: center;
+        background: no-repeat url(../../assets/wrapper-logos/wrapper-logo__left.svg), no-repeat url(../../assets/wrapper-logos/wrapper-logo__right.svg) #fdfdff;
+        background-size: 98%, 113%, 38%;
+        background-position: -25rem -18rem, 33rem -36rem;
+    }
+
+    .main-info__logo {
+        margin-top: 12rem;
+
+    }
+
+    .header-text__title {
+        max-width: 140vw;
+        text-align: center;
+    }
+
+    .header-text__subtitle {
+    width: 105vw;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 2rem;
+    text-align: center;
+    }
+
+    .events-title {
+        width: 30rem;
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+
+    .time-count__days-large {
+        display: none;
+    }
+
+    .time-count__days-small {
+        display: block;
+        width: 132px;
+        height: 54px;
+        text-align: center;
+        background: no-repeat url(../../assets/time-logos/time-logos.svg);
+        padding-top: 18px;
+        color:#fdfdff;
+    }
+
+    .time-count__hours-large {
+        display: none;
+    }
+
+    .time-count__hours-small {
+        display: block;
+        width: 132px;
+        height: 54px;
+        text-align: center;
+        background: no-repeat url(../../assets/time-logos/time-logos.svg);
+        padding-top: 18px;
+        color:#fdfdff;
+    }
+
+    .time-count__minutes-large {
+        display: none;
+    }
+
+    .time-count__minutes-small {
+        display: block;
+        width: 132px;
+        height: 54px;
+        text-align: center;
+        background: no-repeat url(../../assets/time-logos/time-logos.svg);
+        padding-top: 18px;
+        color:#fdfdff;
+    }
+    
+    .time-count__seconds-large {
+        display: none;
+    }
+
+    .time-count__seconds-small {
+        display: block;
+        width: 132px;
+        height: 54px;
+        text-align: center;
+        background: no-repeat url(../../assets/time-logos/time-logos.svg);
+        padding-top: 18px;
+        color:#fdfdff;
+    }
+
+    .footer {
+        width: 100%;
+        min-height: 21vh;
+        position: fixed;
+        bottom: 0;
+    }
+
+    .footer-other__events {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 25rem;
+    }
+
+    .events-wrapper {
+        display: none;
+    }
+}
