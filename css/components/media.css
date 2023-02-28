@@ -99,9 +99,12 @@
 
     .footer {
         width: 100%;
-        min-height: 18vh;
-        position: fixed;
-        bottom: 0;
+        height: 191px;
+        margin-top: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #162C4E;
     }
 }
 
@@ -201,9 +204,12 @@
 
     .footer {
         width: 100%;
-        min-height: 21vh;
-        position: fixed;
-        bottom: 0;
+        height: 191px;
+        margin-top: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #162C4E;
     }
 
     .footer-other__events {
